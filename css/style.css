@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #757A97;
+    
+}
+
+input{
+    height: 100px;
+    width: 100%;
+    outline: none;
+    background-color: #343957;
+    border: none;
+}
+
+#container{
+    width: 300px;
+    box-shadow: 0px 9px 12px rgba(0, 0, 0, 0.212);
+    
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #343957;
+    font-size: 1.5em;
+    height: 425px;
+    width: 300px;
+    
+
+}
+
+tr{
+    width: 100%;
+    height: 100%;
+}
+
+td{
+    text-align: center;
+    padding: 24px 25px;
+    background-color: #424869;
+}
+
+
+.numero{
+    color: white;
+    transition: 0.3s;
+}
+
+.numero:hover{
+    transition: 0.3s;
+    background-color: #4a5072;
+    cursor: pointer;
+}
+
+.maior{
+    font-size: 1.5em;
+}
+
+.simbolos{
+    background-color: #535974;
+    color: #ff0040;
+    transition: 0.3s;
+}
+
+.simbolos:hover{
+    background-color: #616781;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.igual{
+    background-color: #ff0040;
+    color: white;
+    transition: 0.3s;
+}
+
+.igual:hover{
+    background-color: #fa164f;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.last{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+
+.material-symbols-outlined{
+    color: white;
+}
