@@ -29,7 +29,17 @@ function inserirOp(caractere){
 // função de inserir parênteses
 function inserirPar(num){
     var numero = document.querySelector("#resposta").value
-    document.querySelector("#resposta").value = numero + num
+        document.querySelector("#resposta").value = numero + num
+    if (document.querySelector("#resposta").value = numero + ")") {
+        document.querySelector("#resposta").value = numero + "("
+    } 
+    // else if (document.querySelector("#resposta").value = numero + "(") {
+    //     document.querySelector("#resposta").value = numero + ")"
+    // }
+}
+
+if (inserirPar() = true) {
+    document.querySelector("#resposta").value = numero + ")"
 }
 
 
