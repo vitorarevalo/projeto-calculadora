@@ -14,7 +14,7 @@
 <p>Caso queira acessá-lo, clique no link: <a href="https://vitorarevalo.github.io/projeto-calculadora/" target="_blank">Calculadora.</a></p>
 
 ## Duração do Projeto 
-<p>25/Fev/2024</p>
+<p>25/Fev/2024 - 03/Mai/2023</p>
 
 <p>Obrigado por ler até aqui! 😊❤️🖥️</p>
 
